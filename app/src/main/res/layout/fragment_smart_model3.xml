@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/empty_modal_3" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_y="75dp"
+        android:layout_x="0dp"
+        android:textColor="#00FFec"
+        android:textSize="37sp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1006dp"
+        android:layout_y="233dp">
+
+        <ImageView
+            android:id="@+id/iv_man_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_top_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_exist_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:visibility="invisible"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1187dp"
+        android:layout_y="233dp">
+
+        <ImageView
+            android:id="@+id/iv_man_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_top_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_exist_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1368dp"
+        android:layout_y="233dp">
+
+        <ImageView
+            android:id="@+id/iv_man_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_top_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_exist_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:visibility="invisible"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="825dp"
+        android:layout_y="653dp">
+
+        <ImageView
+            android:id="@+id/iv_man_7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_bottom_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_exist_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:visibility="invisible"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1006dp"
+        android:layout_y="653dp">
+
+        <ImageView
+            android:id="@+id/iv_man_6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_bottom_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/tv_exist_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1187dp"
+        android:layout_y="653dp">
+
+        <ImageView
+            android:id="@+id/iv_man_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_bottom_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_exist_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:visibility="invisible"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="179dp"
+        android:layout_height="216dp"
+        android:layout_x="1368dp"
+        android:layout_y="653dp">
+
+        <ImageView
+            android:id="@+id/iv_man_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/icon_bottom_empty" />
+
+        <TextView
+            android:id="@+id/tv_man_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:textColor="#6600ffec"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_exist_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="已占用"
+            android:visibility="invisible"
+            android:textColor="#ccffffff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_smell_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_x="0dp"
+        android:layout_y="990dp"
+        android:textColor="#00ffec"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_man_position"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_x="550dp"
+        android:layout_y="928dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="7/7"
+        android:textColor="#00ffec"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_man_people"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_x="840dp"
+        android:layout_y="928dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="--"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_man_env"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1153dp"
+        android:layout_y="928dp"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="--"
+        android:textColor="#00ffB0"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_man_env_value1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1401dp"
+        android:layout_y="943dp"
+        android:gravity="center"
+        android:text="--"
+        android:textColor="#ffD400"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tv_man_env_value2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1401dp"
+        android:layout_y="987dp"
+        android:gravity="center"
+        android:text="--"
+        android:textColor="#ffD400"
+        android:textSize="22sp" />
+</AbsoluteLayout>

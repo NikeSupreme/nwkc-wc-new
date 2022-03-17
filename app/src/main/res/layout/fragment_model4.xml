@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_model">
+
+
+    <TextView
+        android:layout_x="768dp"
+        android:layout_y="162dp"
+        android:layout_width="384dp"
+        android:layout_height="90dp"
+        android:text="项目模板选择"
+        android:textColor="#00B09F"
+        android:textSize="48dp">
+    </TextView>
+
+    <ImageView
+        android:layout_width="960dp"
+        android:layout_height="541dp"
+        android:layout_x="480dp"
+        android:layout_y="316dp"
+        android:src="@mipmap/bg_model4">
+
+    </ImageView>
+    <Button
+        android:clickable="true"
+        android:id="@+id/iv_pre"
+        android:layout_width="85dp"
+        android:layout_height="60dp"
+        android:layout_x="293dp"
+        android:layout_y="573dp"
+        android:background="@drawable/bg_model_pre"
+        android:focusable="true" />
+
+
+    <TextView
+        android:id="@+id/tv_sure"
+        android:layout_width="960dp"
+        android:layout_height="64dp"
+        android:layout_x="480dp"
+        android:layout_y="911dp"
+        android:gravity="center"
+        android:background="@drawable/bg_et"
+        android:focusable="true"
+        android:text="确定"
+        android:textColor="#00FFEC"
+        android:textSize="22.5sp">
+
+    </TextView>
+
+
+</AbsoluteLayout>

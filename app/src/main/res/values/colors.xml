@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8dd652</color>
+    <color name="colorPrimaryDark">#8dd652</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryBlue">#234460</color>
+    <color name="colorPrimaryDarkBlue">#234460</color>
+    <color name="colorAccentBlue">#FF4081</color>
+    <color name="action_bar_bg">#719e19</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!--新颜色值-->
+    <color name="newPrimary">#8dd652</color>
+    <color name="newSecondary">#f77e25</color>
+    <color name="newPrimaryDark">#54bf00</color>
+    <color name="newPrimaryLight">#f2faed</color>
+    <color name="newDelete">#f64a4a</color>
+    <color name="newIconNor">#cbd1d9</color>
+    <color name="newTextBackground">#ffffff</color>
+    <color name="newBackground">#f1f4f8</color>
+    <color name="newPrimaryText">#000000</color>
+    <color name="newSecondaryText">#676767</color>
+    <color name="newStateText">#868686</color>
+    <color name="newDivider">#e2e2e2</color>
+    <color name="newLightGreen">#f2faed</color>
+
+    <!-- default -->
+    <color name="default_blue_color">#01aff4</color>
+    <color name="default_value_color">#333333</color>
+    <color name="default_key_color">#878787</color>
+    <color name="light_gray">#a9a9a9a9</color>
+    <color name="transparent_background">#00000000</color>
+    <color name="default_list_view_line">#D8D8D8</color>
+
+    <!-- 添加基础颜色 -->fb4747
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#666666</color>
+    <color name="red">#ff0000</color>
+    <color name="lightgreen">#FF339CF5</color>
+    <color name="orange">#f36826</color>#FF801A
+    <color name="lightgrey">#ff888888</color>
+    <color name="darkred">#ffcc3300</color>
+    <color name="reder">#5E0D00</color>
+    <color name="grayline">#ff929292</color>
+    <color name="main_login">#fb4747</color>
+    <color name="my_bill">#4AA7F5</color>
+    <color name="password_hint_text_color">#b6b6b6</color>
+    <color name="base_bg_white">#FEFEFE</color>
+    <color name="new_flags">#F77E52</color>
+
+    <!--注册界面的颜色值-->
+    <color name="get_verification_code_bg">#FFF77E25</color>
+    <color name="register_btn_bg">#FFCBD1D9</color>
+    <color name="terms_of_use_text_color">#FF8DD652</color>
+
+
+    <color name="blue">#33b5e5</color>
+    <color name="darkblue">#0099cc</color>
+    <color name="grayStart">#adadad</color>
+    <color name="grayEnd">#ffffff</color>
+    <color name="bg_handle_pressed">#a0a0a0</color>
+    <color name="trant">#00ffffff</color>
+    <color name="login_error">#585858</color>
+    <color name="other_login">#9e9e9e</color>
+
+    <!-- v6色 -->
+    <color name="v6_green">#8dd652</color>
+    <color name="v6_green_dark">#54bf00</color>
+    <color name="v6_bg">#F1F4F8</color>
+    <color name="v6_line">#D9D9D9</color>
+    <color name="v6_line2">#DDDDDD</color>
+    <color name="v6_text_gray_light">#96999e</color>
+    <color name="v6_text_gray">#5c5c5c</color>
+    <color name="v6_text_secondary">#676767</color>
+    <color name="v6_text_gray_dark">#535353</color>
+    <color name="v6_text_dark">#010101</color>
+    <color name="v6_text_green_light">#7bcb4b</color>
+    <color name="v6_text_green">#5dc604</color>
+    <color name="v6_text_red">#f64a4a</color>
+    <color name="v6_text_uei_key">#393C59</color>
+    <color name="v6_popuup_text">#4b4b4b</color>
+    <color name="v6_button_skip">#40909496</color>
+    <color name="v6_config_wifi_tips">#797979</color>
+    <color name="v6_texthintcolor">#999999</color>
+    <color name="v6_editText_hint_color">#8dd652</color>
+    <color name="v6_safedog_tittle">#0388Fa</color>
+    <color name="v6_refresh">#ff20b759</color>
+
+    <!--设备界面色-->
+    <color name="device_search_text_color">#FFCACACA</color>
+
+    <!--场景界面色-->
+    <color name="scene_accent_text_color">#ff8dd652</color>
+
+    <!--消息中心-->
+    <color name="message_center_no_result_text_color">#ffc7c7c7</color>
+
+    <!--我的界面的颜色-->
+    <color name="mine_user_name_color">#FF343434</color>
+
+
+    <!--自定义dialog的颜色-->
+    <color name="v5_gray_dark">#534F5F</color>
+    <color name="v5_green_dark">#6ea31d</color>
+    <color name="gray">#898A89</color>
+    <color name="progress_text_black">#000000</color>
+    <color name="progress_gray">#c8c8c8</color>
+    <!-- 猫眼设置页字体颜色-->
+    <color name="device_setting_left_color">#000000</color>
+    <color name="device_setting_right_color">#676767</color>
+    <color name="device_config_wifi_tips_color">#3e3e3e</color>
+
+
+    <!--首页温湿度 widget 颜色-->
+    <color name="home_widget_humiture_ss">#8dd652</color>
+    <color name="home_widget_humiture_hl">#48a0dc</color>
+    <color name="home_widget_humiture_gz">#f77e25</color>
+    <color name="home_widget_state_offline">#f77e25</color>
+
+    <!--首页窗帘widget 颜色-->
+    <color name="home_widget_curtain">#666666</color>
+    <color name="home_widget_curtain_offline">#C9CFDB</color>
+
+    <color name="scene_text_unPressed">#99FFFFFF</color>
+    <!--窗帘、插座更换图标选中时背景颜色-->
+    <color name="dialog_icon_selected">#EEF0F1</color>
+
+</resources>
