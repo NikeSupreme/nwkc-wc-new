@@ -51,6 +51,8 @@ public class MainActivity extends Activity {
             fragment = SmartModel3Fragment.newInstance();
         } else if (num == 4) {
             fragment = SmartModel4Fragment.newInstance();
+        } else if (num == 5) {
+            fragment = SmartModel5Fragment.newInstance();
         } else {
             fragment = LoginFragment.newInstance();
         }

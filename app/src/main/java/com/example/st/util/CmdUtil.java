@@ -142,7 +142,7 @@ public class CmdUtil {
                 Collections.sort(floorList, new Comparator<FloorListBean.InfoBean.ContentBean>() {
                     @Override
                     public int compare(FloorListBean.InfoBean.ContentBean o1, FloorListBean.InfoBean.ContentBean o2) {
-                        // 按照学生的年龄进行升序排列
+                        //升序排列
                         if (Integer.parseInt(o1.getNum()) > Integer.parseInt(o2.getNum())) {
                             return 1;
                         }

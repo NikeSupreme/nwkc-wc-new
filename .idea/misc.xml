@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_model2.xml" value="0.22" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_model4.xml" value="0.26499118165784835" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_model5.xml" value="0.2" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_smart_model1.xml" value="0.11" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_smart_model2.xml" value="0.14" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_smart_model3.xml" value="0.26499118165784835" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_smart_model4.xml" value="0.26499118165784835" />
+        <entry key="..\:/wulian/SmartWc/SmartToilet/app/src/main/res/layout/fragment_smart_model5.xml" value="0.14" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

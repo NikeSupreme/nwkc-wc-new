@@ -14,46 +14,35 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.example.st.R;
-import com.example.st.SmartModel4Fragment;
+import com.example.st.SmartModel5Fragment;
 
-public class Model4Fragment extends Fragment implements View.OnClickListener {
+public class Model5Fragment extends Fragment implements View.OnClickListener {
     private Button ivPre;
     private TextView tvSure;
-    private Button ivNext;
 
-    public static Model4Fragment newInstance() {
-        Model4Fragment fragment = new Model4Fragment();
+    public static Model5Fragment newInstance() {
+        Model5Fragment fragment = new Model5Fragment();
         return fragment;
     }
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_model4, container, false);
+        return inflater.inflate(R.layout.fragment_model5, container, false);
     }
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        ivNext = view.findViewById(R.id.iv_next);
         ivPre = view.findViewById(R.id.iv_pre);
         tvSure = view.findViewById(R.id.tv_sure);
         ivPre.setOnClickListener(this);
-        ivNext.setOnClickListener(this);
         tvSure.setOnClickListener(this);
     }
 
-    private void navigateToModel3() {
+    private void navigateToModel4() {
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        Model3Fragment fragment = Model3Fragment.newInstance();
-        ft.replace(android.R.id.content, fragment, fragment.getClass().getName());
-        ft.addToBackStack(null);
-        ft.commit();
-    }
-
-    private void navigateToModel5() {
-        FragmentTransaction ft = getFragmentManager().beginTransaction();
-        Model5Fragment fragment = Model5Fragment.newInstance();
+        Model4Fragment fragment = Model4Fragment.newInstance();
         ft.replace(android.R.id.content, fragment, fragment.getClass().getName());
         ft.addToBackStack(null);
         ft.commit();
@@ -61,12 +50,12 @@ public class Model4Fragment extends Fragment implements View.OnClickListener {
 
     private void saveModel() {
         SharedPreferences sharedPreferences = getActivity().getSharedPreferences("modelNum", Context.MODE_PRIVATE);
-        sharedPreferences.edit().putInt("num", 4).apply();
+        sharedPreferences.edit().putInt("num", 5).apply();
     }
 
     private void navigateToPage() {
         FragmentTransaction ft = getFragmentManager().beginTransaction();
-        SmartModel4Fragment fragment = SmartModel4Fragment.newInstance();
+        SmartModel5Fragment fragment = SmartModel5Fragment.newInstance();
         ft.replace(android.R.id.content, fragment, fragment.getClass().getName());
         ft.addToBackStack(null);
         ft.commit();
@@ -80,10 +69,7 @@ public class Model4Fragment extends Fragment implements View.OnClickListener {
                 navigateToPage();
                 break;
             case R.id.iv_pre:
-                navigateToModel3();
-                break;
-            case R.id.iv_next:
-                navigateToModel5();
+                navigateToModel4();
                 break;
         }
 
